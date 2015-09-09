@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  font-family;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead{
+  background-size: 50px auto, 50px auto, 200px auto;
+  padding-top: 3em;
+  background-repeat:no-repeat, no-repeat, repeat;
+  background-position: right 50px, left 50px, left top;
+  display: block;
+  padding-bottom: 3.3em;
+}
