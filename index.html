@@ -5,40 +5,36 @@
   <title>dsn1675-assignment-1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<header>
-
-  <div class="masthead">
-    <a href="index.html">
-      <img src="production/logo.svg" alt="logo" class="logo">
-
+<header class="masthead">
+  <a href="index.html">
+  <img src="images/logo.svg" alt="logo" class="logo">
+  </a>
+  <nav>
+    <a href="#" class="btn">BUY</a></nav>
 <h1>Museum of Antiquities</h1>
-<nav> <a href="#">Buy</a></nav>
-
 </header>
 
 <nav>
   <ol>
-    <li><a href="">Seven wonders</a></li>
-    <li><a href="">Buy tickets</a></li>
-    <li><a href="">Now playing</a></li>
-    <li><a href="">This week</a></li>
+    <li><a href="#seven-wonders">Seven wonders</a></li>
+    <li><a href="#buy-tickets">Buy tickets</a></li>
+    <li><a href="#now-playing">Now playing</a></li>
+    <li><a href="#this-week">This week</a></li>
   </ol>
 </nav>
 
-<figure>
-  <img src="production/mvh.jpg" alt"bannerimage">
-   <figcaption><strong>The Seven Wonders of the Ancient world</strong>
-    <p>Remarkable constructions of classical antiquity almost completely lost in time. </p>
-  </figcaption>
-</figure>
+
+<div class="banner1">
+    <img src="images/mvh.jpg">
+    <p><strong>The Seven Wonders of the Ancient world</strong><br> Remarkable constructions of classical antiquity almost completely lost in time.</p>
+</div>
 
 <h2>The Seven Wonders</h2>
 
-<img src="production/giza.jpg" alt"pyramid of giza">
+<img src="images/giza.jpg" alt"pyramid of giza">
 
 <h3>Great Pyramid of Giza</h3>
 <dl>
@@ -49,9 +45,11 @@
   <dt>Location:</dt>
   <dd>Giza Necropolis, Egypt</dd>
 </dl>
-<a href="">Learn more about Giza</a>
+<div>
+  <a class="learn" href="#">Learn more about Giza</a>
+</div>
 
-<img src="production/hanging_gardens_of_babylon" alt"hanging gardens of babylon">
+<img src="images/hanging_gardens_of_babylon.jpg" alt"hanging gardens of babylon">
 
 <h3>Hanging Gardens of Babylon</h3>
 <dl>
@@ -62,9 +60,12 @@
   <dt>Location:</dt>
   <dd>Nineveh, Iraq</dd>
 </dl>
-<a href="">Learn more about the Hanging Gardens</a>
+<div class="box2">
+  <a class="btn2" href="#">Learn more about the Hanging Gardens of Babylon</a>
+</div>
 
-<img src="production/temple_of_artemis.jpg" alt"temple of artemis">
+
+<img src="images/temple_of_artemis.jpg" alt"temple of artemis">
 
 <h3>Temple of Artemis</h3>
 <dl>
@@ -75,9 +76,11 @@
   <dt>Location:</dt>
   <dd>Selcuk, Turkey</dd>
 </dl>
-<a href="">Learn more about the Temple</a>
+<div>
+  <a class="learn" href="#">Learn more about the Temple</a>
+</div>
 
-<img src="production/statue_of_zeus.jpg" alt"statue of zeus">
+<img src="images/statue_of_zeus.jpg" alt"statue of zeus">
 
 <h3>Statue of Zeus at Olympia</h3>
 <dl>
@@ -88,9 +91,11 @@
   <dt>Location:</dt>
   <dd>Olympia, Greece</dd>
 </dl>
-<a href="">Learn more about the Statue</a>
+<div>
+  <a class="learn" href="#">Learn more about the Statue</a>
+</div>
 
-<img src="production/mausoleum_of_halicarnassus" alt"mausoleum of halicarnassus">
+<img src="images/mausoleum_of_halicarnassus.jpg" alt"mausoleum of halicarnassus">
 
 <h3>Mausoleum at Halicarnassus</h3>
 <dl>
@@ -101,9 +106,11 @@
   <dt>Location:</dt>
   <dd>Bodrum, Turkey</dd>
 </dl>
-<a href="">Learn more about the Mausoleum</a>
+<div>
+  <a class="learn" href="#">Learn more about the Mausoleum</a>
+</div>
 
-<img src="production/colossus_of_rhodes.jpg" alt"colossus of rhodes">
+<img src="images/colossus_of_rhodes.jpg" alt"colossus of rhodes">
 
 <h3>Colossus of Rhodes</h3>
 <dl>
@@ -114,9 +121,11 @@
   <dt>Location:</dt>
   <dd>Rhodes, Greece</dd>
 </dl>
-<a href="">Learn more about Colossus</a>
+<div>
+  <a class="learn" href="#">Learn more about Colossus</a>
+</div>
 
-<img src="production/colossus_of_rhodes.jpg" alt"colossus of rhodes">
+<img src="images/lighthouse_of_alexandria.jpg" alt"lighthouse of alexandria">
 
 <h3>Lighthouse of Alexandria</h3>
 <dl>
@@ -127,9 +136,9 @@
   <dt>Location:</dt>
   <dd>Alexandria, Egypt</dd>
 </dl>
-<a href="">Learn more about the Lighthouse</a>
-
-<img src="production/lighthouse_of_alexandria.jpg" alt"lighthouse of alexandria">
+<div>
+  <a class="learn" href="#">Learn more about the Lighthouse</a>
+</div>
 
 <h2>Buy tickets</h2>
 <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world. </p>
@@ -146,87 +155,82 @@
 
 <h2>Now playing on the large screen</h2>
 
-<figure>
-  <img src="production/maroti_atlantisz_1" alt"maroti atlantis">
-   <figcaption>
-    <h3>Atlantis: Why we're so mysterious</h3>
-    <p>From allegory to fiction to mystery</p>
-  </figcaption>
-</figure>
+<div class="banner2">
+  <img src="images/maroti-atlantisz_1.jpg">
+   <p><strong>Atlantis: Why we're so mysterious</strong><br>From allegory to fiction to mystery</p>
+</div>
 
-<a href="">See show times</a>
+<div>
+  <a class="learn" href="#">See show times</a>
+</div>
 
 <h2>This week at the museum</h2>
-<ol>
+
   <li>
    <h3>Saturday & Sunday</h3>
    <ul>
      <li>Atlantis city tours</li>
      <li>Underwater explorer: see outside the bubble</li>
    </ul>
- </ol>
+ </li>
 
-<ol>
+
   <li>
    <h3>Monday</h3>
    <ul>
      <li>Try this out: have fun building your own ancient wonder</li>
      <li>Amazing architecture: see outside the bubble</li>
    </ul>
- </ol>
+ </li>
 
- <ol>
    <li>
     <h3>Tuesday</h3>
     <ul>
       <li>Awesome art: witness art in action as a marble sculpture is born</li>
       <li>Gold rush: learn about the metal and why it was so coveted</li>
     </ul>
-  </ol>
+  </li>
 
-  <ol>
     <li>
      <h3>Wednesday</h3>
      <ul>
        <li>Try this out: wear clothes that the ancients wore</li>
        <li>Gardenology: the science behind trees and the environment</li>
      </ul>
-   </ol>
+   </li>
 
-  <ol>
     <li>
     <h3>Thursday</h3>
      <ul>
         <li>Amazing architecture: explore the science of buildings</li>
         <li>Gardenology: the science behind trees and the environment</li>
      </ul>
-  </ol>
+     </li
 
-  <ol>
    <li>
     <h3>Friday</h3>
     <ul>
       <li>Amazing architecture: explore the science of buildings</li>
       <li>Gardenology: the science behind trees and the environment</li>
     </ul>
-  </ol>
-
-</main>
+  </li>
 
 <footer>
   <aside>Museum of Antiquities</aside>
 
   <address>hello@antiquities.museum</address>
   <p>1 888 000 1618</p>
+
   <a href="">Hours</a>
   <a href="">Directions</a>
 
 <p>1618 Plato Blvd.
   Atlantis, Atlantis, Atlantic Ocean</p>
 
-  <a href="">Exhibits</a>
-  <a href="">Collections</a>
-  <a href="">Donors & sponsors</a>
-  <a href="">Teacher information</a>
-  <a href="">Birthday rentals</a>
+<li><a href="">Exhibits</a></li>
+<li><a href="">Collections</a></li>
+<li><a href="">Donors & sponsors</a></li>
+<li><a href="">Teacher information</a></li>
+<li><a href="">Birthday rentals</a></li>
 </footer>
+</body>
