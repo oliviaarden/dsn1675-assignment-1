@@ -1,182 +1,303 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
-  box-sizing: border-box;
-  font-family;
+	box-sizing: border-box;
+	-moz-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	text-size-adjust:100%;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-  display: block;
-  padding: 1em;
+/*----------- Whole webite modoifiers -------------*/
+body{
+	margin: 0;
+	font-family: sans-serif;
 }
 
-li {
-  margin: 10px;
+html{
+	font-size: 100%;
+	line-height: 1.3;
 }
 
-header {
-  display: inline-block;
-  width: 100%;
-  float: left;
+main{
+	margin: 10px;
+}
+/*------------------ W W M s end ------------------*/
+
+/*-------------------- Header ---------------------*/
+.masthead {
+	background-color: #99CCFF;
+	padding-top: 1em;
 }
 
-.logo {
-  width: 4rem;
-  float: left;
-  margin: 0;
+.title {
+	font-size: 1.2rem;
+	text-align: center;
 }
 
-header h1 {
-  margin: .5rem;
+.logo{
+	border-style: none;
+	width: 70px;
+	margin: 0 auto;
+	display: block;
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: green;
+}
+
+.nav a{
+	display: block;
+	padding: .5em 1em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.buy {
+	color: #000;
+	padding: 0.25rem;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	background-color: #0099FF;
+	width: 4em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 35em){
+
+	.nav li{
+		display: inline-block;
+	}
+
+	.nav{
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 45em){
+
+	.logo {
+		display: inline-block;
+		width: 100px;
+		margin: 0 1em;
+		vertical-align: middle;
+	}
+
+	.title {
+		display: inline-block;
+		vertical-align: middle;
+		font-style: 2rem;
+	}
+
+	.nav {
+		margin-top: 1em;
+	}
+
+	.buy {
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 50em){
+
+	.masthead {
+		float:left;
+		width: 30%
+	}
+
+	main {
+		float: right;
+		width: 70%
+	}
+
+	.nav li{
+		display: block;
+	}
+
+	.logo {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.title {
+		display: block;
+	}
+
+	.nav {
+		text-align: left;
+	}
+
+	.buy {
+		display: block;
+		vertical-align: middle;
+		margin-bottom: 0;
+
+	}
+
+	/*.hero-banner-h2{
+		width:70%;
+		float: right;
+	}
+
+	.panorama p{
+		width: 70%
+		float:right;
+	}*/
+
+	.wonders div{
+	float:right;
+	width:70%;
+}
+
+}
+/*------------------ Header end ------------------*/
+
+/*------------ Introduction Art and Text ---------*/
+img.panorama{
   padding: 0;
-  overflow: hidden;
-  font-size: 130%;
-  font-weight: normal;
-  line-height: normal;
-  text-align: center;
+  margin: 0;
+  width: 100%;
 }
 
-.btn {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  margin-bottom: 1em;
+h2.Seven-Wonders{
+	clear:both;
+}
+
+div.wondersandtext{
+	position: absolute;
+	top: 120px;
+	color: #fff;
+	clear: both;
+}
+
+img{
+ border: 0.2rem solid #000033;
+}
+
+img.wonders{
+	width: 100%;
+	position: relative;
+}
+/*--------- Introduction Art and Text End --------*/
+
+/*----------------- Main Website -----------------*/
+.wonders div{
+	background: url("../images/wonders.jpg") no-repeat center / cover;
+	padding-top: 36.61%;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+}
+
+.panorama h2{
+	margin: 0;
+	color: #FFF;
+	padding: 10px;
+}
+
+h3{
+	background-color: #99CCFF;
+	padding: 10px;
+	background-color: none;
+	margin: 1em 0em 0em 0em;
+	display: block;
+	border-radius: 10px;
+}
+
+a {
   text-decoration: none;
-  color: white;
-  border-radius: 10px;
-  background-color: tan;
-  position: absolute;
-  left: 90%;
-  top: 2%;
+ }
+
+.buttons a{
+	width: 100%;
+	text-align: center;
 }
 
-.btn a
-.btn a:link,
-.btn a:visited {
-  display: inline-block;
-  margin: 1rem;
-  padding: .5rem;
+.left span{
+	width:30%;
+	float:left;
 }
 
-.box {
-  padding: 0;
-  text-align: center;
-}
-
-.learn {
-  text-align: center;
-}
-
-nav li{
-  float: left;
-  margin: 0;
+/*nav li{
   width: 25%;
+  background-color: #0099FF;
   text-align: center;
-  font-weight: normal;
+  padding-top: 1rem;
+  height: 3rem;
+  float: left;
+  display: inline-block;
 }
 
-ol li{
-  font-size: 1em;
-  text-decoration: none;
+nav ul{
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  padding: 0;}*/
+
+a:hover{
+	color:#cc3865;
+	background-color: #fff;}
+
+img.maroti{
+	margin-top: 1rem;
+}
+
+.panorama p{
+	padding:0px  10px 10px 10px;
+}
+
+dt{
+	float:left;
+}
+
+img{
+	width: 100%;
+}
+
+.schedule li{
+	list-style: none;
+	margin-bottom: 1rem;
+}
+
+.schedule ul{
+	padding: 0;
+}
+/*--------------- Main Website End ----------------*/
+
+/*-------------------- Footer ---------------------*/
+footer{
+	background-color: #FFFFCC;
+	clear: both;
+	margin: 0;
+	padding: 10px;
+}
+
+.footer li{
+	background-color: #FFFFCC;
+	width: 100%;
+	text-align: left;
+	padding: 0rem;
+}
+
+.footer ol{
+		display: block;
 }
 
 nav{
-  float: left;
-  overflow: hidden;
-  width: 100%;
+	display: block;
 }
-
-nav ol{
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  overflow: hidden;
-}
-
-nav a{
-  color: white;
-  text-decoration: none;
-  font-size: .8rem;
-  padding: 0.87em;
-  text-align: center;
-  text-decoration: none;
-  background-color: #512200;
-  opacity: 0.5;
-  display: block;
-}
-
-nav li:hover{
-  background-color: #512200;
-  opacity: 0.8;
-}
-
-.banner1 img{
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  clear: both;
-  padding: 0;
-  position: relative;
-  margin: 0;
-  width: 100%;
-}
-
-.banner1 p{
-  position: absolute;
-  top: 18%;
-  text-align: center;
-  color: white;
-}
-
-.banner2 p{
-  position: absolute;
-  top: 774%;
-  text-align: center;
-  color: white;
-  left: 28%;
-}
-.banner2 img{
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-li {
-  padding: 0;
-}
-
-body {
-  margin: 0;
-}
-
-p {
-  margin: 10px;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  margin: 10px;
-}
-
-dl {
-  margin: 10px;
-}
-
-dd {
-  margin: 10px;
-}
-
-footer {
-  background-color: tan;
-  margin: 0;
-  padding: 0 1em;
-}
+/*------------------ Footer End -------------------*/
