@@ -1,0 +1,275 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+   text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead {
+  background-color: #1c1cbb;
+  color: white;
+}
+
+img {
+  width: 100%;
+  display: block;
+  padding: 1em;
+}
+
+li {
+  margin: 10px;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+.logo {
+  width: 4rem;
+  float: left;
+  margin: 0;
+}
+
+header h1 {
+  margin: .5rem;
+  padding: 0;
+  overflow: hidden;
+  font-size: 130%;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  background-color: tan;
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
+
+.btn a
+.btn a:link,
+.btn a:visited {
+  display: inline-block;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.box {
+  padding: 0;
+  text-align: center;
+}
+
+.buttonwrap {
+  text-align: center;
+}
+
+.learn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  background-color: tan;
+}
+
+nav li{
+  display: block
+  float: left;
+  margin: 0;
+  width: 25%;
+  text-align: center;
+  font-weight: normal;
+}
+
+ol li{
+  font-size: 1em;
+  text-decoration: none;
+}
+
+nav{
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav ol{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: .8rem;
+  padding: 0.87em;
+  text-align: center;
+  text-decoration: none;
+  background-color: #512200;
+  opacity: 0.5;
+  display: block;
+}
+
+nav li:hover{
+  background-color: #512200;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 26em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+
+   .logo {
+     display: inline-block;
+     margin: 0 1em;
+     vertical-align: middle;
+   }
+
+   .title {
+     margin: 0;
+     display: inline-block;
+     vertical-align: middle;
+   }
+
+}
+
+@media only screen and (min-width: 55em) {
+
+  .masthead {
+    float: left;
+    width: 30%;
+  }
+
+   main {
+     float: right;
+     width: 70%;
+   }
+
+   .title {
+     display: block;
+     margin: 1em;
+   }
+
+   .logo {
+     display: block;
+     margin: 0 auto;
+   }
+
+   .nav {
+     text-align: left;
+   }
+
+   .nav li {
+     display: block;
+
+   }
+
+}
+
+.banner1 {
+  position: relative;
+  text-align: center;
+  clear: both;
+}
+.banner1 img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.banner1 p{
+  position: absolute;
+  top: 18%;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.banner2 {
+  text-align: center;
+  position: relative;
+}
+
+.banner2 p{
+  position: absolute;
+  text-align: center;
+  color: white;
+  bottom: 2em;
+  top: 51%;
+  width: 100%;
+}
+
+.banner2 img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+}
+
+dl {
+  margin: 10px;
+}
+
+dd {
+  margin: 10px;
+}
+
+footer {
+  background-color: tan;
+  margin: 0;
+  padding: 0 1em;
+}

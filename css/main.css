@@ -54,7 +54,7 @@ main{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	background-color: green;
+	background-color: tan;
 }
 
 .nav a{
@@ -148,15 +148,10 @@ main{
 
 	}
 
-	/*.hero-banner-h2{
+  .hero-banner-h2{
 		width:70%;
 		float: right;
 	}
-
-	.panorama p{
-		width: 70%
-		float:right;
-	}*/
 
 	.wonders div{
 	float:right;
@@ -197,7 +192,6 @@ img.wonders{
 /*----------------- Main Website -----------------*/
 .wonders div{
 	background: url("../images/wonders.jpg") no-repeat center / cover;
-	padding-top: 36.61%;
 	text-align: center;
 	color: #fff;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
@@ -206,14 +200,13 @@ img.wonders{
 .panorama h2{
 	margin: 0;
 	color: #FFF;
-	padding: 10px;
 }
 
 h3{
 	background-color: #99CCFF;
 	padding: 10px;
 	background-color: none;
-	margin: 1em 0em 0em 0em;
+	margin: 1em 0em 1em 0em;
 	display: block;
 	border-radius: 10px;
 }
@@ -249,15 +242,17 @@ nav ul{
   padding: 0;}*/
 
 a:hover{
-	color:#cc3865;
+	color: brown;
 	background-color: #fff;}
 
-img.maroti{
+img.maroti {
 	margin-top: 1rem;
+  width: 100%;
 }
 
 .panorama p{
 	padding:0px  10px 10px 10px;
+  position: absolute;
 }
 
 dt{
@@ -280,14 +275,14 @@ img{
 
 /*-------------------- Footer ---------------------*/
 footer{
-	background-color: #FFFFCC;
+	background-color: tan;
 	clear: both;
 	margin: 0;
 	padding: 10px;
 }
 
 .footer li{
-	background-color: #FFFFCC;
+	background-color: tan;
 	width: 100%;
 	text-align: left;
 	padding: 0rem;
