@@ -16,7 +16,7 @@ html {
 	box-sizing: inherit;
 }
 
-/*----------- Whole webite modoifiers -------------*/
+/*----------- Whole webite modifiers -------------*/
 body{
 	margin: 0;
 	font-family: sans-serif;
@@ -33,6 +33,32 @@ img {
 
 main{
 	margin-right: 0;
+}
+
+.panorama h2{
+	margin: 0;
+	color: #FFF;
+	position: absolute;
+	clear: both;
+	top: 41%;
+	left: 27%;
+	font-size: .5em;
+}
+
+.hero-banner-h2{
+	width:70%;
+	float: right;
+	position: absolute;
+}
+
+.panorama p{
+	padding:0px  10px 10px 10px;
+  position: absolute;
+	top: 47%;
+	left: 17%;
+	text-align: center;
+	clear: both;
+	font-size: .8em;
 }
 /*------------------ W W M s end ------------------*/
 
@@ -79,6 +105,32 @@ main{
 	text-align: center;
 }
 
+.panorama h2{
+	margin: 0;
+	color: #FFF;
+	position: absolute;
+	clear: both;
+	top: 41%;
+	left: 27%;
+	font-size: .5em;
+}
+
+.hero-banner-h2{
+	width:70%;
+	float: right;
+	position: absolute;
+}
+
+.panorama p{
+	padding:0px  10px 10px 10px;
+  position: absolute;
+	top: 47%;
+	left: 17%;
+	text-align: center;
+	clear: both;
+	font-size: .8em;
+}
+
 .mainimages {
 	width: 100%;
 }
@@ -106,23 +158,6 @@ main {
 
 	.nav{
 		text-align: center;
-	}
-
-
-	.panorama h2{
-		margin: 0;
-		color: #FFF;
-		position: absolute;
-		clear: both;
-		top: 41%;
-		left: 27%;
-		font-size: .5em;
-	}
-
-	.hero-banner-h2{
-		width:70%;
-		float: right;
-		position: absolute;
 	}
 }
 
@@ -207,12 +242,6 @@ body {
 
 	}
 
-  .hero-banner-h2{
-		width:70%;
-		float: right;
-		position: absolute;
-	}
-
 	.wonders div{
 	width:100%;
 }
@@ -249,14 +278,18 @@ img.wonders{
 /*--------- Introduction Art and Text End --------*/
 
 /*----------------- Main Website -----------------*/
-.wonders div{
-	background: url("../images/wonders.jpg") no-repeat center / cover;
+.wonders {
 	text-align: center;
 	color: #fff;
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
 	position: relative;
 }
 
+.panorama {
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+}
 .panorama h2{
 	margin: 0;
 	color: #FFF;
