@@ -9,7 +9,7 @@ html {
 	-moz-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
-	text-size-adjust:100%;
+	text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -98,7 +98,7 @@ main{
 	.title {
 		display: inline-block;
 		vertical-align: middle;
-		font-style: 2rem;
+		font-style: 2em;
 	}
 
 	.nav {
@@ -200,12 +200,16 @@ img.wonders{
 .panorama h2{
 	margin: 0;
 	color: #FFF;
+	position: absolute;
+	clear: both;
+	top: 41%;
+	left: 27%;
+	font-size: 1.2em;
 }
 
 h3{
 	background-color: #99CCFF;
 	padding: 10px;
-	background-color: none;
 	margin: 1em 0em 1em 0em;
 	display: block;
 	border-radius: 10px;
@@ -225,22 +229,6 @@ a {
 	float:left;
 }
 
-/*nav li{
-  width: 25%;
-  background-color: #0099FF;
-  text-align: center;
-  padding-top: 1rem;
-  height: 3rem;
-  float: left;
-  display: inline-block;
-}
-
-nav ul{
-  overflow: hidden;
-  margin: auto;
-  width: 100%;
-  padding: 0;}*/
-
 a:hover{
 	color: brown;
 	background-color: #fff;}
@@ -253,6 +241,11 @@ img.maroti {
 .panorama p{
 	padding:0px  10px 10px 10px;
   position: absolute;
+	top: 47%;
+	left: 17%;
+	text-align: center;
+	clear: both;
+	font-size: .9em;
 }
 
 dt{
