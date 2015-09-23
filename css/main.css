@@ -286,18 +286,19 @@ img.wonders{
 }
 
 .panorama {
-	position: absolute;
+	position:;
 	bottom: 1em;
 	width: 100%;
 }
 .panorama h2{
 	margin: 0;
 	color: #FFF;
-	position: absolute;
+	position:;
 	clear: both;
 	top: 41%;
-	left: 27%;
+	left:0;
 	font-size: 1.1em;
+	text-align: center;
 }
 
 h3{
